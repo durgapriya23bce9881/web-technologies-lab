@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+<form class="contact-form" onsubmit="return validateForm()">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <small id="nameError"></small>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+    <small id="emailError"></small>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+    <small id="messageError"></small>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
