@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio and Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>HTML5 Multimedia Player</h1>
+
+<!-- Audio Section -->
+<section class="media-section">
+    <h2>🎧 Audio Player</h2>
+
+    <audio id="audioPlayer" controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p>Current Time: <span id="audioTime">0:00</span></p>
+</section>
+
+<!-- Video Section -->
+<section class="media-section">
+    <h2>📹 Video Player</h2>
+
+    <video id="videoPlayer" width="500" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <p>Current Time: <span id="videoTime">0:00</span></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
