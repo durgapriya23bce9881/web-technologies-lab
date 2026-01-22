@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intelligent Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Smart Shopping Cart</h1>
+
+    <p id="timeMsg"></p>
+
+    <h2>Products</h2>
+
+    <div id="productList"></div>
+
+
+    <!-- Coupon -->
+    <div class="coupon">
+
+        <input type="text" id="coupon"
+        placeholder="Enter Coupon Code">
+
+        <button id="applyCoupon">Apply</button>
+
+        <p id="couponMsg"></p>
+
+    </div>
+
+
+    <!-- Cart -->
+    <h2>Your Cart</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+
+        <tbody id="cartBody"></tbody>
+
+    </table>
+
+
+    <h2 id="finalTotal">Total: ₹0</h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

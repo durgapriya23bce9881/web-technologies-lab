@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5ff;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px;
+}
+
+.container {
+
+    background: white;
+    width: 650px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #535a82;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#timeMsg {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 15px;
+}
+
+
+/* Products */
+
+.product {
+
+    display: flex;
+    justify-content: space-between;
+
+    background: #eef1ff;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border-radius: 5px;
+}
+
+button {
+
+    background: #707591;
+
+    color: white;
+    border: none;
+
+    padding: 6px 12px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d77b8;
+}
+
+
+/* Coupon */
+
+.coupon {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.coupon input {
+
+    padding: 6px;
+    width: 200px;
+
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#couponMsg {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+/* Table */
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+th {
+
+    background: #3f51b5;
+    color: white;
+}
+
+th, td {
+
+    border: 1px solid #ccc;
+    padding: 8px;
+
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+
+/* Total */
+
+#finalTotal {
+    text-align: center;
+    margin-top: 20px;
+    color: #3f51b5;
+}
