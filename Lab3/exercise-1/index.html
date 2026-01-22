@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaptive Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>User Registration</h2>
+
+    <form id="regForm">
+
+        <!-- Name -->
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+
+        <!-- Email -->
+        <label>Email</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+
+
+        <!-- Password -->
+        <label>Password</label>
+        <input type="password" id="password" required>
+        <span class="error" id="passwordError"></span>
+
+
+        <!-- Confirm -->
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" required>
+        <span class="error" id="confirmError"></span>
+
+
+        <!-- Age -->
+        <label>Age</label>
+        <input type="number" id="age" required>
+        <span class="error" id="ageError"></span>
+
+
+        <!-- Role -->
+        <label>Role</label>
+        <select id="role" required>
+            <option value="">Select</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+        </select>
+
+
+        <!-- Skills -->
+        <div id="skillsBox" class="hide">
+
+            <label>Skills</label>
+            <input type="text" id="skills">
+
+        </div>
+
+
+        <!-- Button -->
+        <button type="submit" id="submitBtn" disabled>
+            Register
+        </button>
+
+
+        <p id="success"></p>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
