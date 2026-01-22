@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Step Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Multi-Step Registration Form</h1>
+    
+    <!-- Progress Bar -->
+
+    <div class="progressBox">
+
+        <div id="progress"></div>
+
+    </div>
+
+
+    <!-- Form -->
+
+    <form id="mainForm">
+
+
+        <!-- Stage 1 -->
+        <div class="stage active">
+
+            <h2>Step 1: Personal Info</h2>
+
+            <input type="text" id="name"
+            placeholder="Full Name">
+
+            <p class="error" id="nameError"></p>
+
+
+            <input type="email" id="email"
+            placeholder="Email">
+
+            <p class="error" id="emailError"></p>
+
+        </div>
+
+
+        <!-- Stage 2 -->
+        <div class="stage">
+
+            <h2>Step 2: Account Details</h2>
+
+            <input type="password" id="password"
+            placeholder="Password">
+
+            <p class="error" id="passError"></p>
+
+
+            <input type="password" id="confirm"
+            placeholder="Confirm Password">
+
+            <p class="error" id="confirmError"></p>
+
+        </div>
+
+
+        <!-- Stage 3 -->
+        <div class="stage">
+
+            <h2>Step 3: Education</h2>
+
+            <input type="text" id="college"
+            placeholder="College Name">
+
+            <p class="error" id="collegeError"></p>
+
+
+            <input type="number" id="year"
+            placeholder="Year of Study">
+
+            <p class="error" id="yearError"></p>
+
+        </div>
+
+
+        <!-- Stage 4 -->
+        <div class="stage">
+
+            <h2>Step 4: Confirmation</h2>
+
+            <input type="text" id="city"
+            placeholder="City">
+
+            <p class="error" id="cityError"></p>
+
+
+            <div class="agreeBox">
+
+    <input type="checkbox" id="agree">
+
+    <label for="agree">
+        I agree to the terms and conditions
+    </label>
+
+</div>
+
+
+            <p class="error" id="agreeError"></p>
+
+        </div>
+
+
+        <!-- Buttons -->
+
+        <div class="buttons">
+
+            <button type="button" id="prevBtn">
+                Previous
+            </button>
+
+            <button type="button" id="nextBtn">
+                Next
+            </button>
+
+            <button type="submit" id="submitBtn">
+                Submit
+            </button>
+
+        </div>
+
+    </form>
+
+
+    <p id="success"></p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
