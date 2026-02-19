@@ -9,7 +9,7 @@ const tempEl = document.getElementById("temp");
 const humidityEl = document.getElementById("humidity");
 const conditionEl = document.getElementById("condition");
 
-const API_KEY = "37508e3b521fa187205165ed7b80d9d1";
+const API_KEY = "API_KEY_REMOVED_FOR_SECURITY";
 
 let lastCachedResult = null;  // caching variable
 
