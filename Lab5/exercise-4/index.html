@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Inventory System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>📦 Product Inventory System</h2>
+
+  <div id="message"></div>
+
+  <input type="text" id="searchCategory" placeholder="Search by Category..." />
+
+  <form id="productForm">
+    <input type="number" id="id" placeholder="Product ID" required>
+    <input type="text" id="name" placeholder="Product Name" required>
+    <input type="text" id="category" placeholder="Category" required>
+    <input type="number" id="price" placeholder="Price" required>
+    <input type="number" id="stock" placeholder="Stock Quantity" required>
+
+    <div class="btn-center">
+      <button type="submit">Save Product</button>
+    </div>
+  </form>
+
+  <h3>Total Inventory Value: ₹ <span id="totalValue">0</span></h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Total</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="inventoryTable"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

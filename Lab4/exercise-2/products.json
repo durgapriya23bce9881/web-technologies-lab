@@ -1,0 +1,10 @@
+{
+  "products": [
+    { "name": "iPhone 14", "price": 79999, "category": "Electronics" },
+    { "name": "Samsung Galaxy S23", "price": 74999, "category": "Electronics" },
+    { "name": "Nike Running Shoes", "price": 4999, "category": "Footwear" },
+    { "name": "Wooden Study Table", "price": 8999, "category": "Furniture" },
+    { "name": "Bluetooth Headphones", "price": 2999, "category": "Electronics" },
+    { "name": "Office Chair", "price": 5999, "category": "Furniture" }
+  ]
+}

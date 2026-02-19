@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management System (XML + AJAX)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Employee Management System (Local XML)</h2>
+
+  <div id="message"></div>
+
+  <form id="employeeForm">
+    <input type="text" id="empId" placeholder="Employee ID" required>
+    <input type="text" id="empName" placeholder="Name" required>
+    <input type="text" id="empDept" placeholder="Department" required>
+    <input type="number" id="empSalary" placeholder="Salary" required>
+
+    <div class="btn-center">
+      <button type="submit">Save</button>
+    </div>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="employeeTable"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

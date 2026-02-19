@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Record System (JSON)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🎓 Student Record System</h2>
+
+  <div id="message"></div>
+
+  <input type="text" id="search" placeholder="Search by Name..." />
+
+  <form id="studentForm">
+    <input type="number" id="id" placeholder="Student ID" required>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="course" placeholder="Course" required>
+    <input type="number" id="marks" placeholder="Marks (0-100)" required>
+
+    <div class="btn-center">
+      <button type="submit">Save Student</button>
+    </div>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Marks</th>
+        <th>Grade</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

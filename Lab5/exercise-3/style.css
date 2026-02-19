@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #c0d7de, #addaf1);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  width: 950px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #0072ff;
+  outline: none;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+button {
+  padding: 8px 18px;
+  background: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #005bd1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #f4f6ff;
+}
+
+.high { color: green; font-weight: bold; }
+.medium { color: orange; font-weight: bold; }
+.low { color: red; font-weight: bold; }
+
+.success {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+#search {
+  width: 100%;
+  margin-top: 10px;
+}
